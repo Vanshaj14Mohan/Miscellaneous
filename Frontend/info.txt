@@ -1,7 +1,7 @@
 In this module we would learn about:
 
 GET Request:
-. Used to GET some response
+. Used to GET some response.
 . Data is sent in query strings (limited, string data & visible in URL).
 
 POST Request:
