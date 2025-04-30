@@ -10,7 +10,7 @@ app.get("/register", (req,res)=>{
 app.post("/register", (req,res)=>{
     res.send("Standard POST Response");
 });
-//use hoppscotch to send request.
+//use hoppscotch to send request and verify.
 
 app.listen(port, ()=>{
     console.log(`App is listening on port ${port}`);
