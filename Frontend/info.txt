@@ -7,3 +7,9 @@ GET Request:
 POST Request:
 . Used to POST something (For create/write/update).
 . Data is sent via request body (any type of data).
+
+Handling Post Request
+: Set up POST reuest route to get some responses.
+: Parse POST request data
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
