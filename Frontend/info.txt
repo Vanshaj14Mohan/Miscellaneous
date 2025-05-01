@@ -16,6 +16,7 @@ app.use(express.json());
 ________________________________________________________________________________________
 Object Oriented Programming in JS 
 To Structure our code:
+And topics we will cover in this module,
 . Prototypes
 . New Operators
 . Constructors
