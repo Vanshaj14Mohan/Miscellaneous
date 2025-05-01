@@ -13,3 +13,11 @@ Handling Post Request
 : Parse POST request data
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+________________________________________________________________________________________
+Object Oriented Programming in JS 
+To Structure our code:
+. Prototypes
+. New Operators
+. Constructors
+. Classes
+. Keywords(extends, super)
