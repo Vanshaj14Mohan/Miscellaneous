@@ -25,6 +25,10 @@ function Person(name, age){
     this.age= age;
 }
 //adding a Talking function
+Person.prototype.talk = function(){
+    console.log(`Hi, my name is ${this.name}`);
+}
 
 let x1 = new Person("John", 23);
 let x2 = new Person("David", 25);
+//A tricky syntax to follow
