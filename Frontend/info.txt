@@ -22,3 +22,13 @@ And topics we will cover in this module,
 . Constructors
 . Classes
 . Keywords(extends, super)
+
+___________________________________________________________________________________________
+Object Prototypes
+: Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+It's like a single template object that all objects inherit methods and properties from 
+without having their own copy. 
+
+: Every Object in JavaScript has a built in property which is called it's prototype. The prototype
+itself is an object. So the prototype will have it's own prototype making what's called a prototype chain,
+The chain ends when we reach a prototype that has null for it's own prototype.
