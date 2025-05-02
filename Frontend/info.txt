@@ -41,3 +41,7 @@ ________________________________________________________________________________
 Factory Functions
 Factory functions are our normal functions but we use these functions to create objects.
 Basically a function that creates objects but we don't use factory functions much.
+__________________________________________________________________________________________________________________
+New Operator
+The new operator lets developers create an instance of a user defined object type or of one of the built-in object types
+that has a Constructor function.
