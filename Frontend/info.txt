@@ -23,7 +23,7 @@ And topics we will cover in this module,
 . Classes
 . Keywords(extends, super)
 
-___________________________________________________________________________________________
+_______________________________________________________________________________________________________________
 Object Prototypes
 : Prototypes are the mechanism by which JavaScript objects inherit features from one another.
 It's like a single template object that all objects inherit methods and properties from 
@@ -37,3 +37,7 @@ For example
 arr.__proto__(reference)
 Array.prototype(actual object)
 String.prototype
+__________________________________________________________________________________________________________________
+Factory Functions
+Factory functions are our normal functions but we use these functions to create objects.
+Basically a function that creates objects but we don't use factory functions much.
