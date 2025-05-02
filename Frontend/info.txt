@@ -32,3 +32,8 @@ without having their own copy.
 : Every Object in JavaScript has a built in property which is called it's prototype. The prototype
 itself is an object. So the prototype will have it's own prototype making what's called a prototype chain,
 The chain ends when we reach a prototype that has null for it's own prototype.
+
+For example
+arr.__proto__(reference)
+Array.prototype(actual object)
+String.prototype
