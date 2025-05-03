@@ -33,3 +33,17 @@ Person.prototype.talk = function(){
 let x1 = new Person("John", 23);
 let x2 = new Person("David", 25);
 //A tricky syntax to follow 
+
+//Using Classes
+class Human{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    talk(){
+        console.log(`Hi, my name is ${this.name}`);
+    }
+}
+
+let a1 = new Human("Thomas", 25);
+let a2 = new Human("Arthur", 27);
