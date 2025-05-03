@@ -47,8 +47,9 @@ The new operator lets developers create an instance of a user defined object typ
 that has a Constructor function.
 ________________________________________________________________________________________________________________________
 Classes in JavaScript
-Classes are a template for creating objects.
+: Classes are a template for creating objects.
 we can understand it as a group that gives us a basic blueprint regarding the inside objects. And we use a special method
 in classes named Constructor.
 
 The Constructor method is a special method of a class for creating and initializing an object instance of that class.
+____________________________________________________________________________________________________________________________
