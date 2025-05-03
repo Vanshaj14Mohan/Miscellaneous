@@ -34,7 +34,7 @@ let x1 = new Person("John", 23);
 let x2 = new Person("David", 25);
 //A tricky syntax to follow 
 
-//Using Classes
+//Now Using Classes here
 class Human{
     constructor(name, age){
         this.name = name;
