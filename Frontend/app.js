@@ -50,15 +50,16 @@ let a2 = new Human("Arthur", 27);
 
 //Using Inheritance here
 //For Student
-class Student{
+class Student extends College{
     constructor(name, age, marks){
-        this.name = name;
-        this.age= age;
+        super(name, age); //keyword used inside constructor, calling parent class constuctor here.
+        // this.name = name;
+        // this.age= age;
         this.marks = marks;
     }
-    talk(){
-        console.log(`Hi, I'm ${this.name}`);
-    }
+    // talk(){
+    //     console.log(`Hi, I'm ${this.name}`);
+    // }
 }
 
 let stu1 = new Student("Adam", 17, 90);
@@ -66,15 +67,16 @@ let stu2 = new Student("John", 18, 91);
 let stu3 = new Student("Bruce", 18, 90);
 
 //And now we will make one for Teacher too.
-class Teacher{
+class Teacher extends College{
     constructor(name, age, subject){
-        this.name = name;
-        this.age = age;
+        super(name, age); //used inside constructor, calling parent class constuctor here.
+        // this.name = name;
+        // this.age = age;
         this.subject = subject;
     }
-    talk(){
-        console.log(`Hi, I'm ${this.name}`);
-    }
+    // talk(){
+    //     console.log(`Hi, I'm ${this.name}`);
+    // }
 }
 //Now assigning the common values in a different class
 class College{
