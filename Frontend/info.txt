@@ -25,7 +25,7 @@ And topics we will cover in this module,
 And the list continues with this one:
 _______________________________________________________________________________________________________________
 Object Prototypes
-: Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+:1 Prototypes are the mechanism by which JavaScript objects inherit features from one another.
 It's like a single template object that all objects inherit methods and properties from 
 without having their own copy. 
 
@@ -38,20 +38,21 @@ arr.__proto__(reference)
 Array.prototype(actual object)
 String.prototype
 __________________________________________________________________________________________________________________
-Factory Functions
+:2 Factory Functions
 Factory functions are our normal functions but we use these functions to create objects.
 Basically a function that creates objects but we don't use factory functions much.
 __________________________________________________________________________________________________________________
-New Operator
+:3 New Operator
 The new operator lets developers create an instance of a user defined object type or of one of the built-in object types
 that has a Constructor function.
 ________________________________________________________________________________________________________________________
-Classes in JavaScript
+:4 Classes in JavaScript
 : Classes are a template for creating objects.
 we can understand it as a group that gives us a basic blueprint regarding the inside objects. And we use a special method
 in classes named Constructor.
 
 : The Constructor method is a special method of a class for creating and initializing an object instance of that class.
 ____________________________________________________________________________________________________________________________
-: Inheritance
+:5 Inheritance
 Inheritance is the mechanism that allows us to create new classes on the basis of already existing classes.
+____________________________________________________________________________________________________________________________
