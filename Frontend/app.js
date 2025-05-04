@@ -47,3 +47,44 @@ class Human{
 
 let a1 = new Human("Thomas", 25);
 let a2 = new Human("Arthur", 27);
+
+//Using Inheritance here
+//For Student
+class Student{
+    constructor(name, age, marks){
+        this.name = name;
+        this.age= age;
+        this.marks = marks;
+    }
+    talk(){
+        console.log(`Hi, I'm ${this.name}`);
+    }
+}
+
+let stu1 = new Student("Adam", 17, 90);
+let stu2 = new Student("John", 18, 91);
+let stu3 = new Student("Bruce", 18, 90);
+
+//And now we will make one for Teacher too.
+class Teacher{
+    constructor(name, age, subject){
+        this.name = name;
+        this.age = age;
+        this.subject = subject;
+    }
+    talk(){
+        console.log(`Hi, I'm ${this.name}`);
+    }
+}
+//Now assigning the common values in a different class
+class College{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    talk(){
+        console.log(`Hi, I'm ${this.name}`);
+    }
+}
+
+
