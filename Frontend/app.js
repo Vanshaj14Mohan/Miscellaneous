@@ -49,10 +49,23 @@ let a1 = new Human("Thomas", 25);
 let a2 = new Human("Arthur", 27);
 
 //Using Inheritance here
+//Now assigning the common values in a different class
+class College{
+    constructor(name,age){
+        console.log("College Class Constructor");
+        this.name = name;
+        this.age = age;
+    }
+    talk(){
+        console.log(`Hi, I'm ${this.name}`);
+    }
+}
+
 //For Student
 class Student extends College{
     constructor(name, age, marks){
         super(name, age); //keyword used inside constructor, calling parent class constuctor here.
+        console.log("Student Class Constructor");
         // this.name = name;
         // this.age= age;
         this.marks = marks;
@@ -63,8 +76,8 @@ class Student extends College{
 }
 
 let stu1 = new Student("Adam", 17, 90);
-let stu2 = new Student("John", 18, 91);
-let stu3 = new Student("Bruce", 18, 90);
+// let stu2 = new Student("John", 18, 91);
+// let stu3 = new Student("Bruce", 18, 90);
 
 //And now we will make one for Teacher too.
 class Teacher extends College{
@@ -78,15 +91,45 @@ class Teacher extends College{
     //     console.log(`Hi, I'm ${this.name}`);
     // }
 }
-//Now assigning the common values in a different class
-class College{
-    constructor(name,age){
+
+let tea1 = new Teacher("Rachel", 30, "English");
+
+//Another Example
+class Mammal { //Base class, Parent Class
+    constructor(name){
         this.name = name;
-        this.age = age;
+        this.type = "Warm-Blodded";
     }
-    talk(){
-        console.log(`Hi, I'm ${this.name}`);
+    eat(){
+        console.log("I am eating");
     }
 }
 
+class Cats extends Mammal{ //Child Class
+    constructor(name){
+        super(name);
+    }
+    meow(){
+        console.log("Purrr ---- Purrrrr");
+    }
+    // eat(){
+    //     console.log("I am eating");
+    // } method override 
+}
+
+let cat1 = new Cats("Mango");
+
+class Dogs extends Mammal{ //Child Class
+    constructor(name){
+        super(name);
+    }
+    bark(){
+        console.log("Wofff --- Wofff");
+    }
+    // eat(){
+    //     console.log("I am eating");
+    // }
+}
+
+let dog1 = new Dogs("Bruno");
 
